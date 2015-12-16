@@ -1,2 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 It adds .git you need it to create a reprository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The files in the working directory is not yet added to the repositary
+to add those files to the repository first you must add it to the
+staging area with git add then add it to the repository with git commit.
