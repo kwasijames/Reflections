@@ -5,3 +5,18 @@ How is the staging area different from the working directory and the repository?
 The files in the working directory is not yet added to the repositary
 to add those files to the repository first you must add it to the
 staging area with git add then add it to the repository with git commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+make sure that you are working on one file at a time git status
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If uor want to do dome experementation. You could make changes with out affection the master branch.
+
+How do the diagrams help you visualize the branch structure?
+Helps you to see that commits are non linear
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the commits are saved to the master, a new end point is created that points to the two branches that are to be merged.
+So we can better visualize what is happening.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Easier for the user. Might not know which commits to to add to the new parent.
